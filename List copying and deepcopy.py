@@ -4,7 +4,7 @@ from copy import deepcopy
 list1 = [1,2,3,4,5,6,7]
 print(list1)
 
-list2 = list1  #a problem here
+list2 = list1  #a problem here, perhaps.  This is a "shallow" copy
 list1[3]=17
 print("list2 changes after change in list 1", list2)
 
